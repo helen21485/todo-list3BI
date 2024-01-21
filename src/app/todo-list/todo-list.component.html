@@ -1,0 +1,12 @@
+<div class="container">
+    <div *ngFor="let todo of todoList">
+      <span>{{ todo.title }}</span>
+      <button (click)="displayTodoDetail(todo)">
+      </button>
+      <button (click)="updateTodo(todo)">
+      </button>
+      <button (click)="deleteTodo(todo)">
+      </button>
+    </div>
+  </div>
+  
